@@ -11,7 +11,7 @@ module.exports = function (grunt) {
     files.forEach(function(filepath) {
       grunt.verbose.writeln('Linting ' + filepath);
 
-      exec('ruby-lint ' + filepath, function(err, stdout, stderr) {
+      exec('ruby-lint ' + filepath + ' --levels=error --analysis=argument_amount,pedantics,shadowing_variables,useless_equality_checks', function(err, stdout, stderr) {
         if(null !== err) {
           grunt.log.error('\n');
           grunt.log.error('Error in ' + filepath);

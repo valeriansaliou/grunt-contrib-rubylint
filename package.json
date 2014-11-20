@@ -1,7 +1,7 @@
 {
   "name": "grunt-contrib-rubylint",
   "description": "Grunt task for validating Ruby code",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/valeriansaliou/grunt-contrib-rubylint",
   "bugs": "https://github.com/valeriansaliou/grunt-contrib-rubylint/issues",
 
