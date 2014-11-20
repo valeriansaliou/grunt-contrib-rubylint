@@ -24,8 +24,7 @@ grunt.loadNpmTasks('grunt-contrib-rubylint');
 
 ```javascript
 grunt.initConfig({
-  bashlint: {
-    options: { force: true },
+  rubylint: {
     src: ['**/*.{rb,ru}']
   }
 });
