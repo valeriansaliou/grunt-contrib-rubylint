@@ -2,6 +2,10 @@
 
 Grunt task for validating Ruby code.
 
+
+[![build status](https://ci.hakuma.holdings/projects/72/status.png?ref=master)](https://ci.hakuma.holdings/projects/72?ref=master)
+
+
 ## Getting started
 
 You need to have the `ruby-lint` command available on your system.
@@ -25,6 +29,10 @@ grunt.loadNpmTasks('grunt-contrib-rubylint');
 ```javascript
 grunt.initConfig({
   rubylint: {
+    options: {
+      levels: 'error'
+    },
+
     src: ['**/*.{rb,ru}']
   }
 });
@@ -40,6 +48,35 @@ Type: `Boolean` Default value: `false`
 
 Set `force` to true to report errors but not fail the task.
 
+#### levels
+
+Type: `String` Default value: `error`
+
+Set `levels` to one of the following:
+
+ * error
+ * info
+ * warning
+
+#### analysis
+
+Type: `Object` Default value: `[]`
+
+Set `analysis` to true to report errors but not fail the task.
+
+If no value is set, all classes are used.
+
+Else, pick the classes you want to use in the following list:
+
+ * argument_amount
+ * pedantics
+ * shadowing_variables
+ * undefined_methods
+ * undefined_variables
+ * unused_variables
+ * useless_equality_checks
+
+
 ## License
 
-MIT
+This package is published under the MIT license.
