@@ -5,7 +5,7 @@
 Grunt task for validating Ruby code.
 
 
-[![Build Status](https://semaphoreci.com/api/v1/projects/bf739af8-b684-4743-99f6-ec01cc9c241e/376004/shields_badge.svg)](https://semaphoreci.com/valeriansaliou/grunt-contrib-rubylint)
+[![build status](https://ci.hakuma.holdings/projects/72/status.png?ref=master)](https://ci.hakuma.holdings/projects/72?ref=master)
 
 
 ## Getting started
