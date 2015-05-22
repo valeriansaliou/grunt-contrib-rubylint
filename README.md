@@ -5,7 +5,7 @@
 Grunt task for validating Ruby code.
 
 
-[![build status](https://ci.hakuma.holdings/projects/72/status.png?ref=master)](https://ci.hakuma.holdings/projects/72?ref=master)
+[![Build Status](https://travis-ci.org/valeriansaliou/grunt-contrib-rubylint.svg?branch=master)](https://travis-ci.org/valeriansaliou/grunt-contrib-rubylint)
 
 
 ## Getting started
